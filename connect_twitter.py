@@ -14,8 +14,8 @@ driver=webdriver.Chrome(r'/usr/local/bin/chromedriver')
 
 ## Twitter log in info and download the csv file
 def fillform(driver):
-    username = 'chrisliuxiqiao4'
-    password = '19941113liulu'
+    username = ' '
+    password = ' '
     driver.find_element_by_xpath('//*[@id="page-container"]/div/div[1]/form/fieldset/div[1]/input').send_keys(username)
     driver.find_element_by_xpath('//*[@id="page-container"]/div/div[1]/form/fieldset/div[2]/input').send_keys(password)
     driver.find_element_by_xpath('//*[@id="page-container"]/div/div[1]/form/div[2]/button').click()
