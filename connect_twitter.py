@@ -45,7 +45,7 @@ def trim_dataset():
 def import_postgres():
     # import dataset into a temporary table first 
 #    try:
-    conn = psycopg2.connect(user="postgres",host="127.0.0.1",port="5432",database="ARF_DB",password="1234.")
+    conn = psycopg2.connect(user="postgres",host="127.0.0.1",port="5432",database="ARF_DB",password=" ")
     cur = conn.cursor()
     f = open(locate_csv())
     next(f)
