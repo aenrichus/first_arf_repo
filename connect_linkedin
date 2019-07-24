@@ -20,8 +20,8 @@ driver.implicitly_wait(2)
 
 # Log in 
 def fillform(driver):
-    username = 'xiqiao.liu@baruchmail.cuny.edu'
-    password = '19941113liulu'
+    username = ' '
+    password = ' '
     try:
         driver.find_element_by_xpath('//*[@id="uno-reg-join"]/div/div/div/div[2]/div[1]/div[1]/div[2]/p/a').click()
     except:
